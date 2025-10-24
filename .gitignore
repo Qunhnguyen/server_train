@@ -1,0 +1,20 @@
+# --- Python & virtual env ---
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Ultralytics/YOLO artifacts ---
+runs/
+*.pt
+*.onnx
+*.engine
+*.pth
+wandb/
+
+# --- IDE/editor ---
+.vscode/
+.idea/
+.DS_Store
